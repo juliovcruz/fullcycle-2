@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: front
-          image: juliovcruz0/fullcycle-2-front
+          image: juliovcruz0/front
           ports:
             - containerPort: 3000

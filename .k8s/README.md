@@ -1,9 +1,12 @@
+First use:
+- kind create cluster
+
 To start api:
-kubectl apply -f nest-api/deploy.yaml
-kubectl expose -f nest-api/deploy.yaml
-kubectl port-forward service/nest-route-api 3000
+- kubectl apply -f api/deploy.yaml
+- kubectl expose -f api/deploy.yaml
+- kubectl port-forward service/api 3000
 
 To start front-end:
-kubectl apply -f react-frontend/deploy.yaml
-kubectl expose -f react-frontend/deploy.yaml
-kubectl port-forward service/react-frontend 3001:3000
+- kubectl apply -f react-frontend/deploy.yaml
+- kubectl expose -f react-frontend/deploy.yaml
+- kubectl port-forward service/front 3001:3000
