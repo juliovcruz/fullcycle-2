@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: api
-          image: juliovcruz0/fullcycle-2-api
+          image: juliovcruz0/api
           ports:
             - containerPort: 3000
